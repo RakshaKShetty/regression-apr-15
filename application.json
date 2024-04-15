@@ -1,8 +1,20 @@
 {
   "pages": [
     {
+      "id": "Dashboard",
+      "isDefault": false
+    },
+    {
       "id": "Page1",
       "isDefault": true
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
+    },
+    {
+      "id": "Page2",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -15,7 +27,14 @@
   },
   "color": "#ECECEC",
   "icon": "open-new-tab",
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    },
+    {
+      "uidString": "jspdf_https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
